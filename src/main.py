@@ -20,13 +20,13 @@ Usage:
         nerdylittlestitcher: 'cross', 'download representative', 'stitch', 'cross stitch', 'stitch pattern'
 
 Design:
-    the head of the code is all in 'main.py'. It depends on these classes
+    The head of the code is all in 'main.py'. It depends on these classes
 
         EtsyClient: gets data from Etsy
 
-        SecretSauce: heuristic logic aka 'secret sauce'. everything from 'raw data' to 'dictionary of answers'
+        SecretSauce: heuristic logic aka 'secret sauce'. It handles everything from 'raw data' to the 'dictionary of answers'.
 
-There are additional comments in the class files
+There are a few implementation comments in those class files.
 
 """
 def main():
